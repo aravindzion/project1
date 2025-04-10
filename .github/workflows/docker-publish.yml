@@ -1,6 +1,6 @@
 name: Docker Build and Publish
 on:
-  workflow_dispatch: # Allows manual triggering of the workflow
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   build-and-push:

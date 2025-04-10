@@ -1,9 +1,5 @@
 name: Docker Build and Publish
 on:
-  push:
-    branches: [main] # Trigger this workflow on pushes to the main branch
-  pull_request:
-    branches: [main] # Trigger this workflow on pull requests targeting the main branch
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:

@@ -28,7 +28,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-web-image:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-web-dev:${{ github.sha }}
           latest: true # Also tag as latest on main branch pushes
 
       - name: Image details
